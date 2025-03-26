@@ -49,7 +49,7 @@ export default function AboutMe() {
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <Image
-                src={"/images/profile.jpg"}
+                src={"/profile.jpg"}
                 alt="Shivang Agarwal"
                 fill
                 className="rounded-2xl object-cover shadow-xl"
