@@ -47,7 +47,7 @@ export default function AboutMe() {
             viewport={{ once: true }}
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96">
-              <Image
+              <img
                 src={"/images/profile.jpg"}
                 alt="Shivang Agarwal"
                 className="rounded-2xl object-cover shadow-xl"
