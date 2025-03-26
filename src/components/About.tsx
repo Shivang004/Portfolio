@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { Card } from "@/components/ui/card";
 import { useEffect, useRef } from "react";
 
@@ -48,13 +47,13 @@ export default function AboutMe() {
             viewport={{ once: true }}
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96">
-              <Image
-                src={"/images/profile.jpg"}
+              <img
+                src="https://i.postimg.cc/zXn6fWVw/profile.jpg"
                 alt="Shivang Agarwal"
-                fill
                 className="rounded-2xl object-cover shadow-xl"
                 sizes="(max-width: 768px) 288px, 384px"
-                priority
+                style={{ width:"100%", height:"100%" }}
+                loading="lazy" 
               />
             </div>
           </motion.div>
