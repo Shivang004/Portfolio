@@ -86,7 +86,7 @@ export default function Introduction() {
           variants={itemVariants}
         >
           <motion.span>Hi,</motion.span>{" "}
-          <motion.span>I'm</motion.span>{" "}
+          <motion.span>I&#39;m</motion.span>{" "}
           <motion.span 
             className="text-primary inline-block"
             variants={nameVariants}
