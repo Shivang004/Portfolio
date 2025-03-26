@@ -161,9 +161,11 @@ RESEARCH & TECHNICAL INTERESTS:
 - Interdisciplinary problem-solving
 
 `;
+const GROQ_API_KEY = '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';
 // Initialize Groq client
 const groq = new Groq({ 
-  apiKey: process.env.GROQ_API_KEY
+  apiKey: GROQ_API_KEY,
+ dangerouslyAllowBrowser: true 
 });
 
 
