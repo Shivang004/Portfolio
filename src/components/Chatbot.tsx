@@ -163,8 +163,7 @@ RESEARCH & TECHNICAL INTERESTS:
 `;
 // Initialize Groq client
 const groq = new Groq({ 
-  apiKey: process.env.NEXT_PUBLIC_GROQ_API_KEY,
-  dangerouslyAllowBrowser: true 
+  apiKey: process.env.GROQ_API_KEY
 });
 
 
@@ -221,7 +220,7 @@ export default function Chatbot() {
           role: msg.role,
           content: msg.content
         })),
-        max_tokens: 300,
+        max_tokens: 1024,
         temperature: 0.7
       });
 
