@@ -9,7 +9,7 @@ const projects = [
   {
     title: "EMG Controlled Shooting Game",
     description: "Designed and implemented a Unity-based shooting game controlled by real-time electromyography (EMG) signals. The project involved processing EMG data with Butterworth filters, Hilbert transforms, and FFT for accurate gesture classification, such as shoot, reload, and aim. Additionally, a Kalman filter was applied to 9-axis sensor data to ensure precise control of in-game actions, resulting in an immersive and responsive gameplay experience.",
-    image: "https://images.unsplash.com/photo-1571244067911-c3a60cbb1621",
+    image: "https://www.researchgate.net/publication/364067328/figure/fig2/AS:11431281087477017@1664635225732/a-Electrode-placement-used-for-EMG-controlled-actuation-in-relation-to-key-anatomical.png",
     tags: ["EMG", "Signal Processing", "Game Development", "Machine Learning"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Trend Analysis of MRS Conference Abstracts (2011-2024)",
     description: "Extracted and analyzed over 100K MRS conference abstracts spanning 13 years to uncover evolving research trends in materials science. Employed state-of-the-art NLP techniques including SBERT for generating 384-dimensional embeddings, UMAP for dimensionality reduction, and clustering algorithms like HBDSCAN. Additionally, used LLaMa APIs for keyword unification, facilitating a comprehensive trend analysis that reveals key research directions over time.",
-    image: "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+    image: "https://www.aimtechnologies.co/wp-content/uploads/2024/01/Trend-Analysis-Example.png",
     tags: ["NLP", "SBERT", "Data Science", "Trend Analysis"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Autonomous Nano Drones Navigation",
     description: "Developed an optimized semantic segmentation model for nano drones to enable real-time obstacle detection and navigation in indoor environments. Simulated the Crazyflie 2.1 in Gazebo and controlled it via ROS, while fine-tuning models like LRASPP MobileNetV3 on a custom indoor dataset. Achieved an inference time of 0.12 seconds and a mIOU of 52.9% on a Raspberry Pi Zero, demonstrating the model's suitability for edge AI applications.",
-    image: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9f1",
+    image: "http://cdn.timesofisrael.com/uploads/2014/12/ZANO-Nano-Drone.jpg",
     tags: ["ROS", "Gazebo", "Edge AI", "Embedded Systems"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Energy Optimization using SARIMA-GARCH",
     description: "Implemented a hybrid time-series forecasting model that combines SARIMA and GARCH to optimize energy consumption patterns. The approach involved capturing seasonal trends and volatility in day-ahead load forecasting, ultimately achieving a mean absolute percentage error (MAPE) of 8.6%. This model aids in efficient resource management and cost optimization by accurately predicting future energy demands.",
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    image: "https://daxg39y63pxwu.cloudfront.net/images/blog/applications-of-machine-learning-in-energy-sector/Applications_of_Machine_Learning_in_Energy_Sector.png",
     tags: ["Time Series", "Forecasting", "SARIMA", "GARCH"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Failure Analysis of Connecting Rod Wear",
     description: "Conducted an in-depth failure analysis of connecting rods operating under high-stress conditions, focusing on wear mechanisms and fatigue failure. Utilized advanced microscopy techniques like SEM and EDS for microstructural analysis to identify material defects. The study culminated in actionable design improvements aimed at enhancing the durability and performance of the components in demanding applications.",
-    image: "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb",
+    image: "https://www.quickforensics.com/wp-content/uploads/materials-failure.jpg",
     tags: ["Materials Science", "Failure Analysis", "Wear Mechanism", "SEM", "EDS"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -50,7 +50,7 @@ const projects = [
   {
     title: "Voice Morph Companion with LLM Integration",
     description: "Developed an interactive voice-based system by integrating large language models (LLMs) for natural speech interactions. The project combined a Transformer-based chatbot with an RNN-based automatic speech recognition (ASR) system, further enhanced by fine-tuning OpenAI Whisper on a specialized dataset. This system, deployed on Raspberry Pi and Arduino Nano BLE, facilitates real-time, user-friendly voice-controlled interactions.",
-    image: "https://images.unsplash.com/photo-1581091226825-f30e1b67c43b",
+    image: "https://image.slidesharecdn.com/voice-morphing-101113123852-phpapp011-151211104638/95/voice-morphing-6-638.jpg?cb=1449830853",
     tags: ["ASR", "RNN", "Edge AI", "Embedded Systems"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -58,7 +58,7 @@ const projects = [
   {
     title: "ChatBot using RNNs with Attention Mechanism",
     description: "Built an intelligent chatbot leveraging advanced RNN architectures with attention mechanisms to enhance intent recognition and response accuracy. The model, trained on conversational datasets processed using NLTK and Spacy, achieved 83% accuracy in understanding and generating responses.",
-    image: "https://images.unsplash.com/photo-1603985524005-4625c28f5970",
+    image: "https://learn.g2.com/hubfs/chatbot-3.jpg",
     tags: ["Chatbot", "NLP", "RNN", "Attention"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -66,7 +66,7 @@ const projects = [
   {
     title: "Motion Video Saliency using YOLO & SAM2",
     description: "Developed a robust motion video saliency pipeline by integrating YOLO for real-time object detection with SAM2 for precise segmentation. The system dynamically resets inference states and reinitializes detection processes to handle new object appearances, ensuring seamless tracking and accurate segmentation of moving objects in video streams.",
-    image: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72",
+    image: "https://miro.medium.com/v2/resize:fit:1358/0*PJVhlIxxvisfmNJl.jpeg",
     tags: ["YOLO", "SAM2", "Computer Vision", "Tracking"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -74,7 +74,7 @@ const projects = [
   {
     title: "Dynamic Agentic RAG with PATHWAY",
     description: "Designed and implemented a multi-agent Retrieval-Augmented Generation (RAG) system using the Pathway framework to autonomously retrieve, synthesize, and deliver context-rich responses. Leveraged vector databases, embedding models, and LangChain tools to refine search results, enhance query handling, and ensure resilience through multi-agent collaboration and robust error handling mechanisms.",
-    image: "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+    image: "https://miro.medium.com/v2/resize:fit:1200/1*K6DCRyxDgP_Zd5IMAzJ8pw.png",
     tags: ["RAG", "LangChain", "Vector DB", "LLMs"],
     github: "https://github.com/your-repo",
     demo: "",
@@ -82,7 +82,7 @@ const projects = [
   {
     title: "Interactive Websites for IITK Clubs",
     description: "Developed websites for Public Policy and Opinion Cell, Policy Conclave, Electronics Club, and Adventure Sports Club using Figma, React,Next.js and Node.js, ensuring that each site meets specific organizational needs and user engagement goals ",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    image: "https://www.campushaat.com/wp-content/uploads/2019/08/25948_IITK_New-1024x491.jpg",
     tags: ["React.js", "Next.js", "Figma", "Node.js"],
     github: "https://github.com/your-repo",
     demo: "https://demo.com",
@@ -98,7 +98,7 @@ const projects = [
   {
     title: "E-commerce portal",
     description: "Developed comprehensive E-commerce porta integrating Frontend and Backend systems, featuring a dynamic React-based user interface, robust Node.js-powered REST APIs, a scalable MongoDB database, and secure deployment on Vercel for optimal performance. ",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    image: "https://static.vecteezy.com/system/resources/previews/010/916/189/original/3d-cartoon-e-commerce-or-online-shopping-concept-with-hands-reaching-out-of-a-computer-screen-png.png",
     tags: ["React.js", "Next.js", "Express.js", "Node.js", "PostgreSQL", "RestAPI"],
     github: "https://github.com/your-repo",
     demo: "https://demo.com",
