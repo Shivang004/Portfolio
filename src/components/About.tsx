@@ -47,8 +47,8 @@ export default function AboutMe() {
             viewport={{ once: true }}
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96">
-              <img
-                src="https://i.postimg.cc/zXn6fWVw/profile.jpg"
+              <Image
+                src={"/images/profile.jpg"}
                 alt="Shivang Agarwal"
                 className="rounded-2xl object-cover shadow-xl"
                 sizes="(max-width: 768px) 288px, 384px"
